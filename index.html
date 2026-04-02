@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBHAASRI P - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-blue-900 min-h-screen text-white font-sans relative">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-black/50 backdrop-blur-md z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">SUBHAASRI P</a>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-purple-400 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-purple-400 transition">About</a></li>
+                <li><a href="#interests" class="hover:text-purple-400 transition">Interests</a></li>
+                <li><a href="#skills" class="hover:text-purple-400 transition">Skills</a></li>
+                <li><a href="#achievements" class="hover:text-purple-400 transition">Achievements</a></li>
+                <li><a href="#projects" class="hover:text-purple-400 transition">Projects</a></li>
+                <li><a href="#contact" class="hover:text-purple-400 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="fixed bottom-8 right-8 w-14 h-14 bg-purple-600 hover:bg-purple-700 text-white rounded-full shadow-2xl text-xl font-bold z-40 opacity-0 translate-y-10 transition-all duration-300 hover:scale-110 hover:shadow-purple-500/50 flex items-center justify-center">
+        ↑
+    </button>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20">
+        <div class="text-center max-w-4xl mx-auto px-6">
+            <h1 class="text-6xl md:text-7xl font-bold mb-8 animate-fade-in">Hi, I'm <span class="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">SUBHAASRI P</span></h1>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="#projects" class="bg-purple-600 hover:bg-purple-700 px-12 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">View Projects</a>
+                <a href="#contact" class="border-2 border-purple-400 hover:bg-purple-400 px-12 py-4 rounded-full font-bold text-lg transition-all duration-300">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-32 bg-black/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-24">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-xl leading-relaxed mb-8">Driven 2nd-year Electronics and Communication Engineering student passionate about building intelligent systems that bridge hardware and software. Focused on creating practical, real-world solutions in robotics, embedded systems, and automation, with a strong interest in innovation that delivers social impact.</p>
+                </div>
+                <div class="relative">
+                    <div class="w-96 h-96 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl mx-auto shadow-2xl transform rotate-6"></div>
+                    <img src="https://via.placeholder.com/400x400/4f46e5/ffffff?text=SUBHAASRI+P" alt="SUBHAASRI P" class="absolute top-8 left-8 w-80 h-80 rounded-2xl object-cover shadow-2xl transform -rotate-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="py-32">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-24">Interests</h2>
+            <div class="grid md:grid-cols-5 gap-4 justify-center">
+                <div class="text-center p-8 bg-black/30 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300 min-h-[120px] flex items-center justify-center">
+                    <div class="text-lg font-bold leading-tight">Robotics</div>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300 min-h-[120px] flex items-center justify-center">
+                    <div class="text-lg font-bold leading-tight">Embedded<br/>Systems</div>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300 min-h-[120px] flex items-center justify-center">
+                    <div class="text-lg font-bold leading-tight">Automation</div>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300 min-h-[120px] flex items-center justify-center">
+                    <div class="text-lg font-bold leading-tight">AI<br/>Applications</div>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300 min-h-[120px] flex items-center justify-center">
+                    <div class="text-lg font-bold leading-tight">Social Impact<br/>Technology</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-32 bg-black/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-24">Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                    <h3 class="text-3xl font-bold mb-6">Software</h3>
+                    <ul class="space-y-3 text-lg">
+                        <li>Java (Basics), Python, C</li>
+                        <li>MATLAB, Power BI</li>
+                        <li>PCB Design (KiCad)</li>
+                    </ul>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                    <h3 class="text-3xl font-bold mb-6">Hardware</h3>
+                    <ul class="space-y-3 text-lg">
+                        <li>ESP32, Arduino</li>
+                        <li>Sensor Integration</li>
+                        <li>PCB Designing, Embedded Systems</li>
+                    </ul>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                    <h3 class="text-3xl font-bold mb-6">Tools</h3>
+                    <ul class="space-y-3 text-lg">
+                        <li>VS Code, Arduino IDE</li>
+                        <li>MATLAB Simulink</li>
+                    </ul>
+                </div>
+                <div class="text-center p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300 md:col-span-2 lg:col-span-1">
+                    <h3 class="text-3xl font-bold mb-6">Soft Skills</h3>
+                    <ul class="space-y-3 text-lg">
+                        <li>Problem Solving & Analytical Thinking</li>
+                        <li>Effective Communication</li>
+                        <li>Team Collaboration & Leadership</li>
+                        <li>Time Management & Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-32">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-24">Achievements & Activities</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <div class="p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-4">IEEE Member & Volunteer</h3>
+                        <p>Actively contributed to organizing technical events and engaging in WIE initiatives.</p>
+                    </div>
+                    <div class="p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-4">Hackathons & Competitions</h3>
+                        <p>Participated in Connect Dots Hackathon (WIE), Ideathon, and PECTEAM 2K25 & 2K26, focusing on innovation and problem solving.</p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="p-8 bg-black/30 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-4">Additional Exposure</h3>
+                        <p>Engaged in ET Gen Hackathon and EY Techathon 6.0, gaining experience in real-world challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-32 bg-black/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-24">Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Human Following Robot</h3>
+                    <p class="mb-6 opacity-90">Built an autonomous robot capable of real-time human tracking using sensor-based control systems.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-purple-600 px-4 py-2 rounded-full text-sm">Arduino</span>
+                        <span class="bg-blue-600 px-4 py-2 rounded-full text-sm">Sensors</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Smart E-Waste Segregation System</h3>
+                    <p class="mb-6 opacity-90">Developed an automated solution to classify and manage e-waste, promoting efficient and sustainable recycling.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-purple-600 px-4 py-2 rounded-full text-sm">ESP32</span>
+                        <span class="bg-green-600 px-4 py-2 rounded-full text-sm">Computer Vision</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Women's Free Learning Platform</h3>
+                    <p class="mb-6 opacity-90">Created a platform that connects users to curated free educational resources, improving accessibility for women.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-pink-600 px-4 py-2 rounded-full text-sm">HTML/CSS/JS</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Women's Health Software</h3>
+                    <p class="mb-6 opacity-90">Designed a digital solution to support women's health through tracking, reminders, and awareness features.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-indigo-600 px-4 py-2 rounded-full text-sm">Python</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">GenTales – Manga Learning Platform</h3>
+                    <p class="mb-6 opacity-90">Engineered an engaging storytelling system to deliver generational knowledge to children through manga.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-orange-600 px-4 py-2 rounded-full text-sm">JavaScript</span>
+                        <span class="bg-purple-600 px-4 py-2 rounded-full text-sm">HTML/CSS/JS</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Robotic Arm using Servo Motors</h3>
+                    <p class="mb-6 opacity-90">Implemented a precision-controlled robotic arm for pick-and-place automation tasks.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-yellow-600 px-4 py-2 rounded-full text-sm">Arduino</span>
+                        <span class="bg-gray-600 px-4 py-2 rounded-full text-sm">Servo Motors</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Temperature Monitoring System</h3>
+                    <p class="mb-6 opacity-90">Developed a real-time environmental monitoring system using sensor integration.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-teal-600 px-4 py-2 rounded-full text-sm">ESP32</span>
+                        <span class="bg-red-600 px-4 py-2 rounded-full text-sm">DHT Sensor</span>
+                    </div>
+                </div>
+                <div class="group bg-black/30 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 class="text-2xl font-bold mb-4">Morse Code Interpreter</h3>
+                    <p class="mb-6 opacity-90">Built a system to convert Morse code signals into readable text, demonstrating communication system fundamentals.</p>
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-blue-600 px-4 py-2 rounded-full text-sm">Arduino</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-32">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-12">Get In Touch</h2>
+            <p class="text-xl mb-16 opacity-90 max-w-2xl mx-auto">Interested in working together? Let's discuss your next project!</p>
+            <form class="max-w-lg mx-auto space-y-6 mb-16" id="contactForm">
+                <input type="text" placeholder="Your Name" class="w-full p-4 bg-black/30 backdrop-blur-md rounded-xl border border-purple-500/30 focus:border-purple-400 outline-none text-lg transition-all" required>
+                <input type="email" placeholder="Your Email" class="w-full p-4 bg-black/30 backdrop-blur-md rounded-xl border border-purple-500/30 focus:border-purple-400 outline-none text-lg transition-all" required>
+                <textarea placeholder="Your Message" rows="5" class="w-full p-4 bg-black/30 backdrop-blur-md rounded-xl border border-purple-500/30 focus:border-purple-400 outline-none text-lg resize-vertical transition-all" required></textarea>
+                <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-12 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">Send Message</button>
+            </form>
+            <div>
+                <h3 class="text-3xl font-bold mb-8">Connect With Me</h3>
+                <div class="flex justify-center space-x-12 text-xl md:text-2xl">
+                    <div class="text-center">
+                        <a href="mailto:psubhaa22@gmail.com" class="block hover:text-purple-400 transition font-bold">psubhaa22@gmail.com</a>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://linkedin.com/in/subhaasri-p-344142343" class="block hover:text-purple-400 transition font-bold">LinkedIn</a>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://github.com/subhaa69" class="block hover:text-purple-400 transition font-bold">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
